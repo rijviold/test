@@ -911,7 +911,7 @@ def handle_state(message, chat_id, text):
 
     elif st["type"] == "wait_mail":
         mail = text.strip().lower()
-        if "@" not in mail or "." not in mail: return bot.send_message(chat_id, f'<tg-emoji emoji-id="{EMOJI["danger"]}">❌</tg-emoji> সঠিক মেইল এড্রেস দিন!')
+        if "@" not in mail or "." not in mail: return bot.send_message(chat_id, f'<tg-emoji emoji-id="{EMOJI["danger"]}">❌</tg-emoji> সঠিক মেইল রিজভী এড্রেস দিন!')
         db["validMails"].append({"email": mail, "userId": chat_id, "time": datetime.now().isoformat()}); save_db()
         bot.send_message(chat_id, f'<tg-emoji emoji-id="{EMOJI["sparkle"]}">✨</tg-emoji> মেইল কোড জেনারেট হচ্ছে...'); state[chat_id] = None
     
