@@ -571,7 +571,7 @@ def main_handler(message):
             [{"text": "Mail Code", "callback_data": "menu_mail_code", "icon_custom_emoji_id": EMOJI["mail"], "style": "primary"}],
             [{"text": "2FA Code", "callback_data": "menu_2fa_code", "icon_custom_emoji_id": EMOJI["2fa"], "style": "primary"}]
         ]})
-        bot.send_message(chat_id, f'📌 <b>কোন সার্ভিসটি প্রয়োজন?</b>', reply_markup=kb)
+        bot.send_message(chat_id, f'📌 <b>কোন স্যার সার্ভিসটি প্রয়োজন?</b>', reply_markup=kb)
         
     elif actual_text == "Support":
         state[chat_id] = {"type": "wait_support_msg"}
