@@ -353,7 +353,7 @@ def complete_purchase(chat_id, prod_name, qty, call_id=None):
                 st_payload = {"action": "status", "key": API_PANEL_KEY, "order": order_id}
                 st_res = requests.post(API_PANEL_URL, data=st_payload).json()
                 
-                msg = (f'<tg-emoji emoji-id="{EMOJI["success"]}">✅</tg-emoji> <b>অর্ডার সম্পন্ন (API)</b> <tg-emoji emoji-id="{EMOJI["sparkle"]}">✨</tg-emoji>\n\n'
+                msg = (f'<tg-emoji emoji-id="{EMOJI["success"]}">✅</tg-emoji> <b>অর্ডার জ্বি সম্পন্ন (API)</b> <tg-emoji emoji-id="{EMOJI["sparkle"]}">✨</tg-emoji>\n\n'
                        f'<tg-emoji emoji-id="{EMOJI["clock"]}">⏳</tg-emoji> <b>Delivery Time:</b> {curr_time}\n'
                        f'<tg-emoji emoji-id="{EMOJI["box"]}">📦</tg-emoji> <b>Order ID:</b> <code>{order_id}</code>\n'
                        f'<tg-emoji emoji-id="{EMOJI["primary"]}">⚙️</tg-emoji> <b>Package:</b> {cat_name} ➔ {prod_name}\n\n')
