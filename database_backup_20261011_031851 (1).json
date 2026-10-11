@@ -1,0 +1,187 @@
+{
+    "users": {
+        "6034658132": {
+            "id": "6034658132",
+            "name": "Md Rijvi Ahamed",
+            "username": "Rijvi11",
+            "balance": 500.0,
+            "joined": "2026-10-11T03:17:20.515242",
+            "orders": 0,
+            "banned": false
+        },
+        "8907546487": {
+            "id": "8907546487",
+            "name": "Test 😉💰",
+            "username": "none",
+            "balance": 0.0,
+            "joined": "2026-10-11T03:18:11.476881",
+            "orders": 0,
+            "banned": false
+        }
+    },
+    "products": {},
+    "deposits": [],
+    "orders": [],
+    "usedTxnIds": [],
+    "pendingOrders": [],
+    "validMails": [],
+    "vouchers": {},
+    "settings": {
+        "bot_name": "TPP Shop Bot",
+        "welcome_msg": "<tg-emoji emoji-id=\"6266995104687330978\">✨</tg-emoji> <b>Welcome to {bot_name}</b>\n━━━━━━━━━━━━━━━━━━\n<tg-emoji emoji-id=\"6267068789146260253\">💰</tg-emoji> Balance: <b>{bal:.2f} BDT / {usdt:.4f} USDT</b>\n━━━━━━━━━━━━━━━━━━\n<tg-emoji emoji-id=\"6267172559851099903\">📌</tg-emoji> <i>নিচের মেনু থেকে আপনার প্রয়োজনীয় সার্ভিসটি বেছে নিন 👇</i>",
+        "ui_overrides": {
+            "Product Management": {
+                "text": "Product Management",
+                "emoji": "6266794310671275367",
+                "style": "primary"
+            },
+            "Add Stock": {
+                "text": "Add Stock",
+                "emoji": "6267152480878990865",
+                "style": "success"
+            },
+            "Live Stock": {
+                "text": "Live Stock",
+                "emoji": "5203993413346680064",
+                "style": "primary"
+            },
+            "User Management": {
+                "text": "User Management",
+                "emoji": "5465553786346945697",
+                "style": "danger"
+            },
+            "Deposit Requests": {
+                "text": "Deposit Requests",
+                "emoji": "6267144651153609853",
+                "style": "success"
+            },
+            "Deposit History": {
+                "text": "Deposit History",
+                "emoji": "5465205795211721259",
+                "style": "primary"
+            },
+            "Broadcast": {
+                "text": "Broadcast",
+                "emoji": "5465400086647290249",
+                "style": "danger"
+            },
+            "Voucher Management": {
+                "text": "Voucher Management",
+                "emoji": "5440841102871517055",
+                "style": "success"
+            },
+            "Force Join Setup": {
+                "text": "Force Join Setup",
+                "emoji": "6267128480601741166",
+                "style": "primary"
+            },
+            "Support Setup": {
+                "text": "Support Setup",
+                "emoji": "5237988788164107500",
+                "style": "danger"
+            },
+            "Admin Management": {
+                "text": "Admin Management",
+                "emoji": "6267128480601741166",
+                "style": "primary"
+            },
+            "Payment Settings": {
+                "text": "Payment Settings",
+                "emoji": "6156613307013797495",
+                "style": "success"
+            },
+            "Reseller Management": {
+                "text": "Reseller Management",
+                "emoji": "6267019543051244106",
+                "style": "primary"
+            },
+            "Tutorial Setup": {
+                "text": "Tutorial Setup",
+                "emoji": "5336972142066047577",
+                "style": "success"
+            },
+            "Database Backup": {
+                "text": "Database Backup",
+                "emoji": "6266794310671275367",
+                "style": "success"
+            },
+            "Category Visibility": {
+                "text": "Category Visibility",
+                "emoji": "5203993413346680064",
+                "style": "primary"
+            },
+            "User Menu": {
+                "text": "User Menu",
+                "emoji": "6266827283135207188",
+                "style": "success"
+            },
+            "Buy Products": {
+                "text": "Buy Products",
+                "emoji": "5440841102871517055",
+                "style": "success"
+            },
+            "My Profile": {
+                "text": "My Profile",
+                "emoji": "5203993413346680064",
+                "style": "primary"
+            },
+            "Deposit": {
+                "text": "Deposit",
+                "emoji": "6156613307013797495",
+                "style": "primary"
+            },
+            "Get Code": {
+                "text": "Get Code",
+                "emoji": "5195240845523044099",
+                "style": "primary"
+            },
+            "Support": {
+                "text": "Support",
+                "emoji": "5237988788164107500",
+                "style": "primary"
+            },
+            "Tutorial": {
+                "text": "Tutorial",
+                "emoji": "6266995104687330978",
+                "style": "success"
+            }
+        },
+        "category_visibility": {
+            "hotmail": true,
+            "outlook": true,
+            "froutlook": true,
+            "vpn": true,
+            "proxy": true
+        },
+        "paymentMethods": {
+            "bkash": {
+                "name": "Bkash",
+                "number": "01833878871",
+                "style": "success"
+            },
+            "nagad": {
+                "name": "Nagad",
+                "number": "017XXXXXXXX",
+                "style": "primary"
+            },
+            "rocket": {
+                "name": "Rocket",
+                "number": "019XXXXXXXX",
+                "style": "danger"
+            },
+            "binance": {
+                "name": "Binance",
+                "number": "Not Set",
+                "style": "primary"
+            }
+        },
+        "dollarRate": 120,
+        "supportLink": "http://t.me/rifat_raisul",
+        "adminIds": [
+            "8907546487"
+        ],
+        "isBotAsleep": false,
+        "force_channels": {},
+        "resellers": []
+    }
+}
