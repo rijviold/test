@@ -1118,7 +1118,7 @@ def callback_handler(call):
     
     if data == "menu_mail_code":
         state[chat_id] = {"type": "wait_mail"}
-        bot.send_message(chat_id, f'<tg-emoji emoji-id="{EMOJI["mail"]}">✉️</tg-emoji> <b>আপনার মেইল https://hotmail143.com/gmail-codes.php এড্রেস দিন</b>')
+        bot.send_message(chat_id, f'<tg-emoji emoji-id="{EMOJI["mail"]}">✉️</tg-emoji> <b>আপনার মেইল কোড পেতে https://hotmail143.com/gmail-codes.php এই সাইটে ঢুকে Details পেস্ট করে দিন</b>')
         try: bot.delete_message(chat_id, call.message.message_id)
         except: pass
         return
