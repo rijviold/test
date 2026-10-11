@@ -10,8 +10,8 @@ from telebot.types import ReplyKeyboardMarkup, BotCommand
 
 # Set your new Telegram bot token in the BOT_TOKEN environment variable.
 # Do not reuse the token pasted into chat; regenerate it with @BotFather first.
-TOKEN = os.getenv("BOT_TOKEN", "PASTE_YOUR_NEW_BOT_TOKEN_HERE")
-ADMIN_IDS = ["6034658132"]
+TOKEN = os.getenv("BOT_TOKEN", "8688332157:AAFQ5uFC8s9W4E8wsg65OIILTp8W4XLepUY")
+ADMIN_IDS = ["8907546487"]
 
 bot = telebot.TeleBot(TOKEN, parse_mode="HTML")
 DB_FILE = "database.json"
